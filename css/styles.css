@@ -1,8 +1,16 @@
+
+
+#logo-img {
+  background: url('../download.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
 body {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #1a1a1a;
-    background-color: #599e4b;
+    background-color: white;
 }
 
 
@@ -70,58 +78,61 @@ body {
 
 /** HOME PAGE **/
 
-
+* {
+    box-sizing: border-box;
+}
 
  h2 {
     font-size: 2.9em;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 50px;
+    text-align: center
+}
+
+h3{
+
+    font-weight: bold;
+    
+text-align: center;
 }
 
 
-
-#chicken {
-  border: 1px solid black;
-  text-align: center;
-  width: 30%;
-  margin-left: 70%;
-  font-family: Georgia,sans-serif;
-  font-weight: bold;
-  font-size: 125%;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 5px;
-  background-color: #FFFF00;
+#chicken, #beef, #sushi {
+ width: 100%;
+    padding: 20px;
+    background-color: #99ed7b;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px #18580b;
 }
 
-#beef {
-  border: 1px solid black;
-  text-align: center;
-  width: 30%;
-  margin-left: 70%;
-  font-family: Georgia,sans-serif;
-  font-weight: bold;
-  font-size: 125%;
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 5px;
-  background-color: #FF1439;
+
+section {
+    border: 1px solid black;
+    background-color: #00FF99;
+    width: 100%;
+    height: auto;
+    font-family: Helvetica;
+    color: black;
+    position: relative;
+    overflow:auto;
+    margin-left:10px;
+    margin-right: 10px;
+    
+
+}
+p {
+    padding: 10px;
+    margin: 0;
 }
 
-#sushi {
-  border: 1px solid black;
-  text-align: center;
-  width: 30%;
-  margin-left: 70%;
-  font-family: Georgia,sans-serif;
-  font-weight: bold;
-  font-size: 125%;
-  margin-bottom: 0;
-  margin-top: 0;
-  background-color: #6495ED;
-  color: white;
-  padding: 5px;
+.container {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 /** END HOME PAGE **/
